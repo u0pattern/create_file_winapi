@@ -14,7 +14,7 @@ fn main() {
 			file_name.as_ptr(),
 			GENERIC_READ,
 			FILE_SHARE_READ,
-            std::ptr::null_mut(),
+            		std::ptr::null_mut(),
 			CREATE_NEW,
 			FILE_ATTRIBUTE_NORMAL,
 			std::ptr::null_mut()
